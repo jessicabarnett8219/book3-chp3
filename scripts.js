@@ -1,8 +1,4 @@
-// Write a program that prints the numbers from 1 to 100. But for multiples of five (5, 10, 15, etc.) print "Chicken" instead of the number and for the multiples of seven (7, 14, 21, etc.) print "Monkey". For numbers which are multiples of both five and seven print "ChickenMonkey".
-
-// To determine if a number can be evenly divided by 5 or 7, use the JavaScript remainder operator.
-
-// You can start with this simpler version that outputs even numbers to the console and ignores odd numbers. You need to refactor this code to meet the requirements above.
+// CHICKEN MONKEY
 
 for (let currentNumber = 1; currentNumber <= 100; currentNumber++) {
   // Divide the current number by 2, and check if the remainder is 0
@@ -15,4 +11,12 @@ for (let currentNumber = 1; currentNumber <= 100; currentNumber++) {
   } else {
     console.log(currentNumber)
   }
-}
+} 
+
+
+
+// TAKE A NUMBER
+
+// A local nightclub is having a Battle of the Bands night in a few months. They expect many bands to sign up because the grand prize is $20,000. To make things easier on the nightclub management, they want each band to be assigned a number so that they can easily keep track of the order in which the bands will perform.
+
+// Your job is to write a function that accepts any band name as an argument. The function will increment a global variable by one each time it is invoked, and return that number, and the band name concatenated together.
